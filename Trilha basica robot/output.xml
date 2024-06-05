@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-06-02T08:09:54.216164" rpa="false" schemaversion="5">
+<suite id="s1" name="Tipo Variaveis" source="C:\Users\penie\OneDrive\Área de Trabalho\robotframework\Trilha basica robot\tipo_variaveis.robot">
+<test id="s1-t1" name="Cenario 01: Variavel Simples" line="14">
+<kw name="Logar Variavel Simples No Console">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.251154" elapsed="0.000998"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.252152" elapsed="0.001005"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Variavel Simples</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.253157" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Sou uma variavel simples, meu conteudo é: ${SIMPLES_STRING}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.253157" elapsed="0.000997"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Sou uma variavel simples, meu conteudo é: ${SIMPLES_NUMERICA}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.254154" elapsed="0.001006"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Sou uma variavel simples, meu conteudo é: ${SIMPLES_NUMERICA}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.255160" elapsed="0.000990"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.256150" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-06-02T08:09:54.251154" elapsed="0.006001"/>
+</kw>
+<status status="PASS" start="2024-06-02T08:09:54.249154" elapsed="0.008001"/>
+</test>
+<test id="s1-t2" name="Cenario 02: Variavel LISTA" line="17">
+<kw name="Logar variavel Lista No Console">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.259156" elapsed="0.000998"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.260154" elapsed="0.001004"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>primeiro cliente:${LISTA}[0]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.261158" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>segundo cliente:${LISTA}[1]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.262153" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>terceiro cliente:${LISTA}[2]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.262153" elapsed="0.001001"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.263154" elapsed="0.001008"/>
+</kw>
+<status status="PASS" start="2024-06-02T08:09:54.259156" elapsed="0.005006"/>
+</kw>
+<status status="PASS" start="2024-06-02T08:09:54.258157" elapsed="0.006998"/>
+</test>
+<test id="s1-t3" name="Cenario 03: variavel DICIONARIO" line="20">
+<kw name="Logar variavel Dicionario No Console">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.268158" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.269154" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Nome do cliente:${DICIONARIO.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.269154" elapsed="0.001008"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Email do cliente:${DICIONARIO.email}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.271161" elapsed="0.001000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Idade do cliente:${DICIONARIO.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.272161" elapsed="0.000996"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-02T08:09:54.273157" elapsed="0.001000"/>
+</kw>
+<status status="PASS" start="2024-06-02T08:09:54.267156" elapsed="0.007001"/>
+</kw>
+<status status="PASS" start="2024-06-02T08:09:54.266155" elapsed="0.008002"/>
+</test>
+<doc>Demonstração de tipos de variaveis</doc>
+<status status="PASS" start="2024-06-02T08:09:54.218162" elapsed="0.057995"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tipo Variaveis">Tipo Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

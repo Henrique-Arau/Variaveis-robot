@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20240602 08:06:52.565" rpa="false" schemaversion="4">
+<suite id="s1" name="Tipo Variaveis" source="c:\Users\penie\OneDrive\Área de Trabalho\robotframework\Trilha basica robot\tipo_variaveis.robot">
+<test id="s1-t1" name="Cenario 03: variavel DICIONARIO" line="20">
+<kw name="Logar variavel Dicionario No Console">
+<kw name="Log To Console" library="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240602 08:06:52.619" endtime="20240602 08:06:52.620"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240602 08:06:52.621" endtime="20240602 08:06:52.623"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome do cliente:${DICIONARIO.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240602 08:06:52.624" endtime="20240602 08:06:52.627"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Email do cliente:${DICIONARIO.email}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240602 08:06:52.627" endtime="20240602 08:06:52.630"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Idade do cliente:${DICIONARIO.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240602 08:06:52.630" endtime="20240602 08:06:52.632"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>-----------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240602 08:06:52.633" endtime="20240602 08:06:52.635"/>
+</kw>
+<status status="PASS" starttime="20240602 08:06:52.618" endtime="20240602 08:06:52.635"/>
+</kw>
+<status status="PASS" starttime="20240602 08:06:52.616" endtime="20240602 08:06:52.637"/>
+</test>
+<doc>Demonstração de tipos de variaveis</doc>
+<status status="PASS" starttime="20240602 08:06:52.575" endtime="20240602 08:06:52.640"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tipo Variaveis">Tipo Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
